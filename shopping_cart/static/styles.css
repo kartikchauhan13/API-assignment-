@@ -1,0 +1,36 @@
+body{
+    box-sizing :border-box ;
+    background-color : #f3f5cb;
+
+}
+
+h1{
+    text-align :center;
+
+}
+
+ul{
+    list-style:none;
+}
+
+.post{
+    display :inline;
+    background-color:lightblue ;
+}
+
+.get {
+    display :inline;
+    background-color:lightgreen ;
+}
+
+.patch {
+    display :inline;
+    background-color:yellow ;
+}
+
+.delete {
+    display :inline;
+    background-color:orange ;
+}
+
+

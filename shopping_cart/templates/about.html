@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel='stylesheet' href = {% static "styles.css" %}>
+    </head>
+    <body>
+        <h1>
+            Shopping Cart Products API
+        </h1>
+        <hr>
+        <h3>
+            HTTP Methods used in the API :
+
+        </h3>
+        <ul>
+            <li>POST --> Creating a new product</li>
+            <li>GET --> getting the info of all products</li>
+            <li>PATCH --> updating a product</li>
+            <li>DELETE --> deleting a product</li>
+        </ul>
+        <hr>
+        <h3>
+            Creating a product
+        </h3>
+        <ul>
+            <li class="post">Method : POST</li>
+            <li>URL : <a target=_blank href="http://kcmail823.pythonanywhere.com/api/cart-items/">http://kcmail823.pythonanywhere.com/api/cart-items/</a></li>
+        </ul>
+        <hr>
+        <h3>
+            Getting info of products
+        </h3>
+        <ul>
+            <li class="get">Method : GET</li>
+            <li>URL : <a target=_blank href="http://kcmail823.pythonanywhere.com/api/cart-items/">http://kcmail823.pythonanywhere.com/api/cart-items/</a></li>
+        </ul>
+        <hr>
+        <h3>
+            Getting info of a single product
+        </h3>
+        <ul>
+            <li class="get">Method : GET</li>
+            <li>URL : <a target=_blank href="#">http://kcmail823.pythonanywhere.com/api/cart-items/id/</a></li>
+            <li>Example product id =5 : <a target=_blank href="http://kcmail823.pythonanywhere.com/api/cart-items/5/">http://kcmail823.pythonanywhere.com/api/cart-items/5/</a></li>
+        </ul>
+        <hr>
+        <h3>
+            Updating a product
+        </h3>
+        <ul>
+            <li class="patch">Method : PATCH</li>
+            <li>URL : <a href="#">http://kcmail823.pythonanywhere.com/api/cart-items/id/</a></li>
+            <li>Example for product id =5 : <a target=_blank href="http://kcmail823.pythonanywhere.com/api/cart-items/5/">http://kcmail823.pythonanywhere.com/api/cart-items/5/</a></li>
+        </ul>
+        <hr>
+        <h3>
+            Deleting a product
+        </h3>
+        <ul>
+            <li class="delete">Method : DELETE</li>
+            <li>URL : <a href="#">http://kcmail823.pythonanywhere.com/api/cart-items/id/</a></li>
+            <li>Example for product id =5 : <a target=_blank href="http://kcmail823.pythonanywhere.com/api/cart-items/5/">http://kcmail823.pythonanywhere.com/api/cart-items/5/</a></li>
+        </ul>
+        <hr>
+    </body>
+</html>
